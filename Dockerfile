@@ -2,13 +2,9 @@ FROM node:24.17 AS base
 
 FROM base AS build
 
-WORKDIR /build
-
-COPY [ "yarn.lock", "package.json", ".yarnrc.yml", ".yarn", "/build" ]
-RUN yarn --immutable
-
 COPY ./ /build
 WORKDIR /build
+RUN yarn --immutable
 RUN yarn run build
 
 FROM nginx AS frontend
