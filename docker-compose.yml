@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  nginx:
+    build:
+      context: .
+      target: frontend
+    networks:
+      - ingress_link
+      - default
+    image: frontend
+    # ports:
+      # - "127.0.0.1:5000:80"
+
+networks:
+  ingress_link:
+    external: true

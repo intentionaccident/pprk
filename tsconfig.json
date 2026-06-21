@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"rootDirs": [
+			"src",
+			"__generated__/src"
+		],
+		"outDir": "dist",
+		"rootDir": "src",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"resolveJsonModule": true,
+		"module": "NodeNext",
+		"target": "ES6",
+		"importHelpers": true,
+		"jsx": "react",
+		"lib": [
+			"dom",
+			"es6",
+			"es2019.array"
+		]
+	},
+	"include": [
+		"src/"
+	]
+}
