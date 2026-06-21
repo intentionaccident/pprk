@@ -4,7 +4,7 @@ FROM base AS build
 
 WORKDIR /build
 
-COPY [ "yarn.lock", "package.json", "/build" ]
+COPY [ "yarn.lock", "package.json", "yarnrc,yml", ".yarn", "/build" ]
 RUN yarn --immutable
 
 COPY ./ /build
