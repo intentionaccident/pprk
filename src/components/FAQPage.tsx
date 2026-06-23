@@ -1,7 +1,8 @@
 import * as React from "react"
+
+import { tc } from "../utils/tc"
 import { DiscordLink } from "./DiscordLink"
 import { ExpandingSection } from "./ExpandingSection"
-import { tc } from "../utils/tc"
 import { PageHeader } from "./PageHeader"
 
 export const FAQPage = () => {
@@ -14,7 +15,7 @@ export const FAQPage = () => {
 			<div>A workers union is a group of workers, usually from the same company or industry, that come together to negotiate with their employer for better working conditions.</div>
 			<div>When company management makes decisions that make working at the company more difficult people working at that company don't have a lot of options.</div>
 			<div>You can accept the worse conditions, try to find alternative employment, or if many workers are upset about the issue you can collectively confront the management and pressure them to change their mind.</div>
-			<div>This type of organization is recognised under Japanese law and participating in a union is legally protected. It is illegal for any company to target or harrass you for being a part of a union or to </div>
+			<div>This type of organization is recognised under Japanese law and participating in a union is legally protected. It is illegal for any company to target or harass you for being a part of a union or to </div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What are the main goals of the PayPay Workers Union?">
@@ -29,7 +30,7 @@ export const FAQPage = () => {
 
 		<ExpandingSection title="How can the union get PayPay to reverse the RTO policy?">
 			<div>The first stem is a process called collective bargaining. After we decide on our demands we will approach the leadership of PayPay and present our case.</div>
-			<div>This will be a formal meeting between a few of our union members who will be chosen as negotiatiors and whoever PayPay will send.</div>
+			<div>This will be a formal meeting between a few of our union members who will be chosen as negotiators and whoever PayPay will send.</div>
 			<div>The company must grant us this meeting according to Japanese law and listen to our proposals in good faith. </div>
 			<div>We will make our case about why RTO is a bad policy not only for the employees but also for the company, and present our preferred solution.</div>
 			<div>If the company decides to ignore our request we are then able to escalate the issue and go on strike.</div>
@@ -46,8 +47,8 @@ export const FAQPage = () => {
 		<ExpandingSection title="Won't the company punish me or fire me for being a part of the union?">
 			<div>To fire an employee in Japan the company must state the reason, and show that they provided the employee ample opportunity to rectify the issue.</div>
 			<div>Firing an employee for being a part of the union is a violation of Japanese law and is illegal.</div>
-			<div>Other means of harrassing union members like threatening them with lower pay or longer hours is also illegal and if you have any evidence of this behavious it can be used to get legal retribution against the company.</div>
-			<div>This is in one of the main strengths of a union. If you are harrassed by the company for any reason, even unrelated to the union, laywyers and union representatives are there to help you.</div>
+			<div>Other means of harassing union members like threatening them with lower pay or longer hours is also illegal and if you have any evidence of this behaviour it can be used to get legal retribution against the company.</div>
+			<div>This is in one of the main strengths of a union. If you are harassed by the company for any reason, even unrelated to the union, lawyers and union representatives are there to help you.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How can I join the union?">
@@ -86,7 +87,7 @@ export const FAQPage = () => {
 				<div>Firstly, if other conditions are suddenly demanded by management similar to the RTO policy, the union will be there ready to respond.</div>
 			</div>
 			<div>
-				<div>Secondly, if harrasement, wrongful termination or tax and or visa renewal negligence related issues arise at the company the union can help represent the employees.</div>
+				<div>Secondly, if harassment, wrongful termination or tax and or visa renewal negligence related issues arise at the company the union can help represent the employees.</div>
 			</div>
 			<div>
 				<div>Lastly, there are other issues that members may be interested in addressing with management.</div>

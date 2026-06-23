@@ -1,11 +1,12 @@
-import * as React from "react"
-import { DiscordLink } from "./DiscordLink"
-import { tc } from "../utils/tc"
-import * as colors from "../styles/colors.scss"
-import * as styles from "./IndexPage.scss"
 import clsx from "clsx"
+import * as React from "react"
 import { Trans, useTranslation } from "react-i18next"
 import { Link } from "react-router"
+
+import * as colors from "../styles/colors.scss"
+import { tc } from "../utils/tc"
+import { DiscordLink } from "./DiscordLink"
+import * as styles from "./IndexPage.scss"
 
 export const IndexPage = () => {
 	const { t } = useTranslation()
@@ -27,7 +28,7 @@ export const IndexPage = () => {
 			/>
 		</div>
 
-		<div className={clsx(styles.separator, tc("my5")) }/>
+		<div className={clsx(styles.separator, tc("my5"))} />
 
 		<div className={tc("s2", "bold")}>{t("index.form.title")}</div>
 		<div className={tc("s3", "bold")}>{t("index.form.body")}</div>
@@ -41,7 +42,7 @@ export const IndexPage = () => {
 			/>
 		</div>
 
-		<div className={clsx(styles.separator, tc("my5")) }/>
+		<div className={clsx(styles.separator, tc("my5"))} />
 
 		<div className={tc("s2", "bold")}>{t("index.form.stand")}</div>
 		<div className={tc("s3", "bold")}>{t("index.form.join")}</div>
@@ -49,7 +50,7 @@ export const IndexPage = () => {
 		<div className={tc("s3", "bold")}><Link to="/faq">{t("index.form.faq")}</Link></div>
 		<div className={tc("s2", "bold")}><DiscordLink>{t("index.form.discord")}</DiscordLink></div>
 		<div className={tc("s3", "bold")}>{t("index.form.form")}</div>
-		<div  className={tc("s3", "bold")}>
+		<div className={tc("s3", "bold")}>
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfZRPAtcrr7Zh62htkdE8pOpNXXazpfZ8FDXM-1m0bofTX9sQ/viewform?usp=dialog">
 				{t("index.form.please")}
 			</a>

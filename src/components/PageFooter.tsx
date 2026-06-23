@@ -1,9 +1,9 @@
+import clsx from "clsx"
 import * as React from "react"
 import { Link } from "react-router"
 
-import { DiscordLink } from "./DiscordLink"
 import { tc } from "../utils/tc"
-import clsx from "clsx"
+import { DiscordLink } from "./DiscordLink"
 import * as styles from "./PageFooter.scss"
 
 export const PageFooter = () => {

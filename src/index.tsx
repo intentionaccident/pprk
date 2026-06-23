@@ -4,9 +4,10 @@ import "./i18n"
 import * as React from "react"
 import { createRoot } from "react-dom/client"
 import { BrowserRouter, Route, Routes } from "react-router"
-import { PageScaffold } from "./components/PageScaffold"
-import { IndexPage } from "./components/IndexPage"
+
 import { FAQPage } from "./components/FAQPage"
+import { IndexPage } from "./components/IndexPage"
+import { PageScaffold } from "./components/PageScaffold"
 
 const rootElement = document.createElement("div")
 document.body.appendChild(rootElement)
