@@ -37,7 +37,11 @@ module.exports = env => {
 						MiniCssExtractPlugin.loader,
 						{
 							loader: "css-loader",
-							options: { modules: true }
+							options: {
+								modules: {
+									exportLocalsConvention: "camel-case-only",
+								}
+							}
 						},
 						"sass-loader",
 					],
@@ -52,7 +56,7 @@ module.exports = env => {
 		plugins: [
 			new HtmlWebpackPlugin({
 				base: "/",
-				title: "test",
+				title: "PayPay Union",
 			}),
 			new MiniCssExtractPlugin(),
 		],

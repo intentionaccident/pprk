@@ -1,0 +1,13 @@
+@use "./variables" as var;
+
+@mixin not-phone {
+	@media (min-width: var.$breakpointPhone) {
+		@content;
+	}
+}
+
+@mixin not-tablet {
+	@media (min-width: var.$breakpointTablet) {
+		@content;
+	}
+}

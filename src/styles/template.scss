@@ -1,0 +1,207 @@
+@use 'sass:list';
+@use "./variables" as var;
+@use "./media" as media;
+
+.vflex {
+	flex-direction: column;
+}
+
+.rflex {
+	flex-direction: row-reverse;
+}
+
+.webOnly {
+	display: none;
+
+	@include media.not-phone {
+		display: inherit;
+	}
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+
+.flex,
+.vflex,
+.rflex {
+	display: flex;
+
+	&.center {
+		align-items: center;
+	}
+
+	&.spaceBetween {
+		justify-content: space-between;
+	}
+
+	&.spaceAround {
+		justify-content: space-around;
+	}
+
+	&.stretch {
+		align-items: stretch;
+	}
+
+	&.jcenter {
+		justify-content: center;
+	}
+
+	&.alignContentEnd {
+		align-content: flex-end;
+	}
+
+	.grow {
+		flex: 1;
+	}
+
+	.wrap {
+		flex-wrap: wrap;
+	}
+}
+
+.textLeft {
+	text-align: left;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.borderBox {
+	box-sizing: border-box;
+}
+
+.noselect {
+	user-select: none;
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.maxw100 {
+	max-width: 100%;
+}
+
+@for $i from 0 through 10 {
+	@if ($i < 10) {
+		.s#{$i} {
+			font-size: list.nth(var.$sizes, $i + 2);
+			line-height: list.nth(var.$sizes, $i + 1);
+		}
+	}
+
+	.g#{$i} {
+		gap: list.nth(var.$sizes, $i + 1);
+	}
+
+	.cg#{$i} {
+		column-gap: list.nth(var.$sizes, $i + 1);
+	}
+
+	.h#{$i} {
+		height: list.nth(var.$sizes, $i + 1);
+	}
+
+	.w#{$i} {
+		width: list.nth(var.$sizes, $i + 1);
+	}
+
+	.lh#{$i} {
+		line-height: list.nth(var.$sizes, $i + 1);
+	}
+
+	.mh#{$i} {
+		min-height: list.nth(var.$sizes, $i + 1);
+	}
+
+	.mw#{$i} {
+		min-width: list.nth(var.$sizes, $i + 1);
+	}
+
+	.mt#{$i} {
+		margin-top: list.nth(var.$sizes, $i + 1);
+	}
+
+	.mr#{$i} {
+		margin-right: list.nth(var.$sizes, $i + 1);
+	}
+
+	.mb#{$i} {
+		margin-bottom: list.nth(var.$sizes, $i + 1);
+	}
+
+	.ml#{$i} {
+		margin-left: list.nth(var.$sizes, $i + 1);
+	}
+
+	.my#{$i} {
+		margin-top: list.nth(var.$sizes, $i + 1);
+		margin-bottom: list.nth(var.$sizes, $i + 1);
+	}
+
+	.mx#{$i} {
+		margin-right: list.nth(var.$sizes, $i + 1);
+		margin-left: list.nth(var.$sizes, $i + 1);
+	}
+
+	.m#{$i} {
+		margin: list.nth(var.$sizes, $i + 1);
+	}
+
+	.p#{$i} {
+		padding: list.nth(var.$sizes, $i + 1);
+	}
+
+	.pt#{$i} {
+		padding-top: list.nth(var.$sizes, $i + 1);
+	}
+
+	.pr#{$i} {
+		padding-right: list.nth(var.$sizes, $i + 1);
+	}
+
+	.pb#{$i} {
+		padding-bottom: list.nth(var.$sizes, $i + 1);
+	}
+
+	.pl#{$i} {
+		padding-left: list.nth(var.$sizes, $i + 1);
+	}
+
+	.py#{$i} {
+		padding-top: list.nth(var.$sizes, $i + 1);
+		padding-bottom: list.nth(var.$sizes, $i + 1);
+	}
+
+	.px#{$i} {
+		padding-right: list.nth(var.$sizes, $i + 1);
+		padding-left: list.nth(var.$sizes, $i + 1);
+	}
+}
+
+.ptn {
+	padding-top: 0px;
+}
+
+.i {
+	font-style: italic;
+}

@@ -1,0 +1,35 @@
+{
+	"header": {
+		"en": "PayPay Union",
+		"ja": "PayPay労働組合"
+	},
+	"nav": {
+		"index": "Index",
+		"faq": "FAQ",
+		"discord": "Discord"
+	},
+	"index": {
+		"attack":  {
+			"title": "PayPay management has demanded a Return To Office",
+			"body": "Starting July 2026 all full-time PayPay Product Division employees will be required to spend a minimum amount of time in the office",
+			"detail":{
+				"week": "One day a week for people living within 100 minutes of the office",
+				"month": "One day a month for everyone else"
+
+			},
+			"alert": "This is completely contrary to the PayPay job listings and recruitment articles promising <1>Full Remote Forever</1>"
+		},
+		"form": {
+			"title": "We are forming a PayPay Workers Union",
+			"body": "You didn't expect mandatory RTO and you won't expect the next demand from management",
+			"insurance": "A Union is like insurance for your working conditions",
+			"fight": "We will <1>Fight the Return To Office</1>. Aiming for full remote and to guarantee no more increases in minimum office time",
+			"stand": "Stand Together",
+			"join": "Join the PayPay Union today",
+			"faq": "Read More Here",
+			"discord": "Join our Discord",
+			"form": "We are gathering PayPay employees' opinions on the issue",
+			"please": "Please let us know your thoughts"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@use "../styles/media" as media;
+@use "../styles/variables" as var;
+
+.root {
+	box-sizing: border-box;
+	margin-inline: auto;
+	max-width: 100%;
+	width: 100%;
+	padding: var.$s4;
+
+	@include media.not-phone {
+		width: 800px;
+	}
+
+	@include media.not-tablet {
+		max-width: 1200px;
+	}
+}

@@ -1,0 +1,7 @@
+@use "../styles/colors" as colors;
+.title {
+    border-bottom: 1px solid white;
+    &:hover {
+        color: colors.$color-bold;
+    }
+}
