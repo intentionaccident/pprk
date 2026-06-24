@@ -60,9 +60,10 @@ export const FAQPage = () => {
 		</ExpandingSection>
 
 		<ExpandingSection title="What is Tozen Union?">
-			<div><a href="https://tozenunion.org/about/" target="_blank" rel="noopener noreferrer">Tozen Union(東ゼン)</a>, AKA Zenkoku Ippan Tokyo General Union, is a general workers union active in Japan since 2009. </div>
-			<div>It is a union with a lot of foreign workers and includes Apple Japan employees.</div>
-			<div>Ostensibly PayPay Union will be a &quot;local union&quot; inside of Tozen Union.</div>
+			<div><a href="https://tozenunion.org/about/" target="_blank" rel="noopener noreferrer">Tozen Union</a>, officially Zenkoku Ippan Tokyo General Union, is a Tokyo-based general workers&apos; union active since 2009.</div>
+			<div>It organizes workers across different companies, industries, and nationalities, with a membership that includes many international workers in Japan. The union operates in both English and Japanese, making it accessible to workers who may not be comfortable navigating workplace issues in Japanese alone.</div>
+			<div>Tozen includes locals across education, media, technology, and other workplaces, including Apple Japan and Japan Times.</div>
+			<div>PayPay Workers Union would be a local union within Tozen Union. That means PayPay members would organize around our own workplace while also being part of Tozen&apos;s wider union structure.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Why is PayPay Union going to be part of Tozen Union?">
