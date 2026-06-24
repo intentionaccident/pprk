@@ -9,19 +9,24 @@ export const FAQPage = () => {
 	return <div>
 		<PageHeader>FAQ</PageHeader>
 		<div className={tc("s4", "bold", "p8")}>
-			<a href="https://tozenunion.org/japanese-law/trade-union-law/">Tozen Union FAQ on Japanese Trade Union Law</a>
+			<a
+				href="https://tozenunion.org/japanese-law/trade-union-law/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Tozen Union FAQ on Japanese Trade Union Law
+			</a>
 		</div>
-		<ExpandingSection title="What is a workers union?">
-			<div>A workers union is a group of workers, usually from the same company or industry, that come together to negotiate with their employer for better working conditions.</div>
-			<div>When company management makes decisions that make working at the company more difficult people working at that company don't have a lot of options.</div>
-			<div>You can accept the worse conditions, try to find alternative employment, or if many workers are upset about the issue you can collectively confront the management and pressure them to change their mind.</div>
-			<div>This type of organization is recognised under Japanese law and participating in a union is legally protected. It is illegal for any company to target or harass you for being a part of a union or to </div>
+		<ExpandingSection title="What is a workers' union?">
+			<div>A workers&apos; union is a group of workers who organize together to improve and protect their working conditions.</div>
+			<div>When management makes decisions that affect our work, individual employees often have limited power to respond. A union gives workers a way to raise concerns collectively, negotiate with management, and support each other.</div>
+			<div>Workers&apos; unions are recognized under Japanese law, and workers are legally protected when joining a union or taking part in legitimate union activity. Employers cannot target, harass, or disadvantage workers for being part of a union.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What are the main goals of the PayPay Workers Union?">
 			<div>Our founding issue is opposition to the mandatory Return To Office policy.</div>
 			<div>Our first objective as a union will be to enter collective bargaining with PayPay to limit the mandatory RTO to the new rules, or to reverse it completely.</div>
-			<div>However our long term goals are to protect the working conditions and rights of all PayPay employees.</div>
+			<div>However our long-term goals are to protect the working conditions and rights of all PayPay employees.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How will we decide whether to aim for reversing the RTO policy, demanding no more increase in RTO or any other course of action?">
@@ -29,7 +34,7 @@ export const FAQPage = () => {
 		</ExpandingSection>
 
 		<ExpandingSection title="How can the union get PayPay to reverse the RTO policy?">
-			<div>The first stem is a process called collective bargaining. After we decide on our demands we will approach the leadership of PayPay and present our case.</div>
+			<div>The first step is a process called collective bargaining. After we decide on our demands we will approach the leadership of PayPay and present our case.</div>
 			<div>This will be a formal meeting between a few of our union members who will be chosen as negotiators and whoever PayPay will send.</div>
 			<div>The company must grant us this meeting according to Japanese law and listen to our proposals in good faith. </div>
 			<div>We will make our case about why RTO is a bad policy not only for the employees but also for the company, and present our preferred solution.</div>
@@ -48,31 +53,31 @@ export const FAQPage = () => {
 			<div>To fire an employee in Japan the company must state the reason, and show that they provided the employee ample opportunity to rectify the issue.</div>
 			<div>Firing an employee for being a part of the union is a violation of Japanese law and is illegal.</div>
 			<div>Other means of harassing union members like threatening them with lower pay or longer hours is also illegal and if you have any evidence of this behaviour it can be used to get legal retribution against the company.</div>
-			<div>This is in one of the main strengths of a union. If you are harassed by the company for any reason, even unrelated to the union, lawyers and union representatives are there to help you.</div>
+			<div>This is one of the main strengths of a union. If you are harassed by the company for any reason, even unrelated to the union, lawyers and union representatives are there to help you.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How can I join the union?">
 			<div>Right now we are gathering our members at our <DiscordLink>Discord Server</DiscordLink></div>
-			<div>Members will need to register to the <a href="https://join.tozenunion.org/">Tozen Union</a></div>
+			<div>Members will need to register to the <a href="https://join.tozenunion.org/" target="_blank" rel="noopener noreferrer">Tozen Union</a></div>
 			<div>We will be holding our founding meeting soon, but you can join the union at any time.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What will be required of me as a member?">
 			<div>These are the minimum requirements for all union members:</div>
-			<div>Tozen Union requires 2000 yer per month from each member. This money is used to pay for lawyers and other administrative expenses.</div>
+			<div>Tozen Union requires 2000 yen per month from each member. This money is used to pay for lawyers and other administrative expenses.</div>
 			<div>The union must have at least one annual meeting and elections for the union officers. It is expected that all members will be present at these meetings. We are planning to have them via video conference currently.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What is Tozen Union?">
-			<div><a href="https://tozenunion.org/about/">Tozen Union(東ゼン)</a>, AKA Zenkoku Ippan Tokyo General Union, is a general workers union active in Japan since 2009. </div>
+			<div><a href="https://tozenunion.org/about/" target="_blank" rel="noopener noreferrer">Tozen Union(東ゼン)</a>, AKA Zenkoku Ippan Tokyo General Union, is a general workers union active in Japan since 2009. </div>
 			<div>It is a union with a lot of foreign workers and includes Apple Japan employees.</div>
-			<div>Ostensibly PayPay Union will be a "local union" inside of Tozen Union.</div>
+			<div>Ostensibly PayPay Union will be a &quot;local union&quot; inside of Tozen Union.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Why is PayPay Union going to be part of Tozen Union?">
 			<div>Tozen Union has:</div>
 			<ul>
-				<li>Almost 20 years experience with collective bargaining and industrial action</li>
+				<li>Almost 20 years&apos; experience with collective bargaining and industrial action</li>
 				<li>Experience resolving conflicts between foreign workers and Japanese companies</li>
 				<li>English and Japanese are used as the primary languages of the union</li>
 				<li>Tozen has a litigation fund and 6 lawyers they have a working relationship with</li>
@@ -116,7 +121,7 @@ export const FAQPage = () => {
 				In the immediate future we will host elections to select these three representatives, and we will decide when and how to organise the union.
 			</div>
 			<div>
-				However a union is a collaborative democratic organisation so even if you aren't elected every bit of work from the members will help us achieve our goals.
+				However a union is a collaborative democratic organisation so even if you aren&apos;t elected every bit of work from the members will help us achieve our goals.
 			</div>
 		</ExpandingSection>
 
@@ -125,7 +130,7 @@ export const FAQPage = () => {
 				Tozen Union requires 2000 yen per month from each member in union dues.
 			</div>
 			<div>
-				This money is used mainly for lawyers fees, but some money is spent on administrative expenses such as an office that is required for some legal procedures.
+				This money is used mainly for lawyers&apos; fees, but some money is spent on administrative expenses such as an office that is required for some legal procedures.
 			</div>
 			<div>
 				We will also discuss and vote if we should have a separate smaller monthly fee for administration of PayPay Union resources, or for strike relief.
