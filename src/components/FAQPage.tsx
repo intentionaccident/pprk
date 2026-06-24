@@ -78,23 +78,11 @@ export const FAQPage = () => {
 			<div>If members later decide that a different structure would better serve us, we can discuss and decide that democratically.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="What will the union do after the RTO policy issue is resolved?">
-			<div>We aim to continue the union indefinitely.</div>
-			<div>
-				<div>Firstly, if other conditions are suddenly demanded by management similar to the RTO policy, the union will be there ready to respond.</div>
-			</div>
-			<div>
-				<div>Secondly, if harassment, wrongful termination or tax and or visa renewal negligence related issues arise at the company the union can help represent the employees.</div>
-			</div>
-			<div>
-				<div>Lastly, there are other issues that members may be interested in addressing with management.</div>
-				<ul>
-					<li>Remediating the individual performance quotas and the salary adjustment process</li>
-					<li>Curtailing the wasteful use of AI (such as demands for all employees to make 50 prompts in ChatGPT by end of week)</li>
-					<li>Return of office amenities such as coffee machines</li>
-				</ul>
-				<div>If the union members vote to pursue these or any other issues that may be raised the union will do so.</div>
-			</div>
+		<ExpandingSection title="What will the union do after the RTO issue is resolved?">
+			<div>We aim to continue the union indefinitely. A union is not only for one issue; it gives workers an ongoing structure to improve and defend our working conditions.</div>
+			<div>That can include regular negotiations over pay, evaluation processes, benefits, workload, flexibility, harassment, administrative problems, and other issues that affect employees.</div>
+			<div>It also means we can respond collectively when management introduces sudden or arbitrary requirements, including targets or policies that do not meaningfully improve our work.</div>
+			<div>The union&apos;s priorities will be decided democratically by members. If members vote to pursue an issue, the union can raise it with management and work toward a collective solution.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Who will run the union?">
