@@ -47,8 +47,8 @@ export const FAQPage = () => {
 		</ExpandingSection>
 
 		<ExpandingSection title="How can I join the union?">
-			<div>Right now we are gathering our members at our <DiscordLink>Discord Server</DiscordLink></div>
-			<div>Members will need to register to the <a href="https://join.tozenunion.org/" target="_blank" rel="noopener noreferrer">Tozen Union</a></div>
+			<div>Right now we are gathering our members on our <DiscordLink>Discord server</DiscordLink></div>
+			<div>Members will need to register with <a href="https://join.tozenunion.org/" target="_blank" rel="noopener noreferrer">Tozen Union</a></div>
 			<div>We will be holding our founding meeting soon, but you can join the union at any time.</div>
 		</ExpandingSection>
 
