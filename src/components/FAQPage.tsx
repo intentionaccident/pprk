@@ -70,12 +70,12 @@ export const FAQPage = () => {
 			<div>Tozen Union has:</div>
 			<ul>
 				<li>Almost 20 years&apos; experience with collective bargaining and industrial action</li>
-				<li>Experience resolving conflicts between foreign workers and Japanese companies</li>
+				<li>Experience resolving conflicts between international workers and Japanese companies</li>
 				<li>English and Japanese are used as the primary languages of the union</li>
-				<li>Tozen has a litigation fund and 6 lawyers they have a working relationship with</li>
+				<li>A litigation fund and working relationships with labor lawyers</li>
 			</ul>
-			<div>Tozen Union has experienced members we can rely on and resources we can use to help us achieve our goals</div>
-			<div>At a later point if we wish to separate from Tozen Union or join another Union organisation we can do so</div>
+			<div>Tozen Union has experienced members and resources we can rely on to help us achieve our goals.</div>
+			<div>If members later decide that a different structure would better serve us, we can discuss and decide that democratically.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What will the union do after the RTO policy issue is resolved?">
