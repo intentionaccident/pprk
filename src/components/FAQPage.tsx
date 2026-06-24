@@ -86,23 +86,18 @@ export const FAQPage = () => {
 		</ExpandingSection>
 
 		<ExpandingSection title="Who will run the union?">
+			<div>You will.</div>
+			<div>More precisely, PayPay Workers Union will be run democratically by its members. Members will decide our priorities, vote on major decisions, and choose representatives to carry out the union&apos;s day-to-day work.</div>
 			<div>
-				By law unions must be democratically run. The structure of the union is also mostly up to the members of the union to decide, but elections must be held regularly by law.
-			</div>
-			<div>
-				Tozen Union requires us to elect three positions
+				At minimum, we will elect three local officers:
 				<ul>
-					<li>The President responsible for the overall direction of the union</li>
-					<li>The Secretary responsible for keeping records of union meetings, votes and other record keeping</li>
-					<li>The Treasurer responsible for union expenses and accounting</li>
+					<li>A president to coordinate the overall direction of the local</li>
+					<li>A secretary to keep records of meetings, votes, and decisions</li>
+					<li>A treasurer to manage local finances and accounting</li>
 				</ul>
 			</div>
-			<div>
-				In the immediate future we will host elections to select these three representatives, and we will decide when and how to organise the union.
-			</div>
-			<div>
-				However a union is a collaborative democratic organisation so even if you aren&apos;t elected every bit of work from the members will help us achieve our goals.
-			</div>
+			<div>If members decide that other roles are needed, we can create them through our democratic process.</div>
+			<div>Even if you are not elected to a formal role, the union depends on members taking part. Every discussion, vote, and contribution helps decide what the union becomes.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What will 2000 yen a month in union dues be used for?">
