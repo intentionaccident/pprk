@@ -51,7 +51,11 @@ export const IndexPage = () => {
 		<div className={tc("s2", "bold")}><DiscordLink>{t("index.form.discord")}</DiscordLink></div>
 		<div className={tc("s3", "bold")}>{t("index.form.form")}</div>
 		<div className={tc("s3", "bold")}>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfZRPAtcrr7Zh62htkdE8pOpNXXazpfZ8FDXM-1m0bofTX9sQ/viewform?usp=dialog">
+			<a
+				href="https://docs.google.com/forms/d/e/1FAIpQLSfZRPAtcrr7Zh62htkdE8pOpNXXazpfZ8FDXM-1m0bofTX9sQ/viewform?usp=dialog"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				{t("index.form.please")}
 			</a>
 		</div>
