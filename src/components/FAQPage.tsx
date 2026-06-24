@@ -40,11 +40,10 @@ export const FAQPage = () => {
 			<div>Our goal is to resolve issues through negotiation. If negotiation does not lead to progress, members can discuss and vote on further lawful action. This could include industrial action such as strikes, demonstrations, or other collective action, but any such step would be decided democratically by members.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="Won't the company punish me or fire me for being a part of the union?">
-			<div>To fire an employee in Japan the company must state the reason, and show that they provided the employee ample opportunity to rectify the issue.</div>
-			<div>Firing an employee for being a part of the union is a violation of Japanese law and is illegal.</div>
-			<div>Other means of harassing union members like threatening them with lower pay or longer hours is also illegal and if you have any evidence of this behaviour it can be used to get legal retribution against the company.</div>
-			<div>This is one of the main strengths of a union. If you are harassed by the company for any reason, even unrelated to the union, lawyers and union representatives are there to help you.</div>
+		<ExpandingSection title="Can the company punish or fire me for joining the union?">
+			<div>Employers cannot lawfully fire, threaten, harass, or otherwise disadvantage workers because they joined a union, tried to organize one, or took part in legitimate union activity. These protections are part of Japan&apos;s Labor Union Act.</div>
+			<div>That does not mean retaliation is impossible, but it means members do not have to face it alone. If management pressures union members or treats them differently, the union can help document what happened, respond collectively, and seek support from Tozen Union and legal advisers.</div>
+			<div>Joining a union means acting with others, not standing alone. Members decide major actions democratically, and when the union acts, it does so collectively so that responsibility and risk are shared.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How can I join the union?">
