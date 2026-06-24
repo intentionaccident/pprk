@@ -100,19 +100,11 @@ export const FAQPage = () => {
 			<div>Even if you are not elected to a formal role, the union depends on members taking part. Every discussion, vote, and contribution helps decide what the union becomes.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="What will 2000 yen a month in union dues be used for?">
-			<div>
-				Tozen Union requires 2000 yen per month from each member in union dues.
-			</div>
-			<div>
-				This money is used mainly for lawyers&apos; fees, but some money is spent on administrative expenses such as an office that is required for some legal procedures.
-			</div>
-			<div>
-				We will also discuss and vote if we should have a separate smaller monthly fee for administration of PayPay Union resources, or for strike relief.
-			</div>
-			<div>
-				Tozen Union provides all of their accounting records to their members, and demands that member unions such as PayPay Union do the same. If any union member is dissatisfied with the use of the union dues they can point out the problem and resolve it democratically.
-			</div>
+		<ExpandingSection title="How are the 2000 yen monthly dues used?">
+			<div>The 2000 yen monthly dues are Tozen Union dues. They are paid into Tozen&apos;s shared budget, not kept as a PayPay-only fund.</div>
+			<div>Those dues support the common work of the union across its locals, including organizers, case support, administration, legal and organizing work, communications, and other union activities approved through Tozen&apos;s democratic budget process.</div>
+			<div>Tozen&apos;s budget, financial reports, and dues are handled through its democratic process, and members have the right to review union financial records.</div>
+			<div>If PayPay local members decide that we need separate funds for PayPay-specific activities, any additional local dues would be discussed and decided democratically by PayPay local members.</div>
 		</ExpandingSection>
 	</div>
 }
