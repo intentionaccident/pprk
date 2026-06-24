@@ -24,9 +24,9 @@ export const FAQPage = () => {
 		</ExpandingSection>
 
 		<ExpandingSection title="What are the main goals of the PayPay Workers Union?">
-			<div>Our founding issue is opposition to the mandatory Return To Office policy.</div>
-			<div>Our first objective as a union will be to enter collective bargaining with PayPay to limit the mandatory RTO to the new rules, or to reverse it completely.</div>
-			<div>However our long-term goals are to protect the working conditions and rights of all PayPay employees.</div>
+			<div>Our founding issue is opposition to mandatory office attendance.</div>
+			<div>Our first objective is to enter collective bargaining with PayPay to prevent further expansion of mandatory office attendance and push for it to be reversed.</div>
+			<div>Over the long term, our goal is to protect the working conditions and rights of all PayPay employees.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How will we decide whether to aim for reversing the RTO policy, demanding no more increase in RTO or any other course of action?">
