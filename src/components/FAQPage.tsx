@@ -34,20 +34,10 @@ export const FAQPage = () => {
 			<div>For example, on office attendance, members may decide whether to seek reversal, prevent further expansion, negotiate exceptions, or pursue another course of action.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="How can the union get PayPay to reverse the RTO policy?">
-			<div>The first step is a process called collective bargaining. After we decide on our demands we will approach the leadership of PayPay and present our case.</div>
-			<div>This will be a formal meeting between a few of our union members who will be chosen as negotiators and whoever PayPay will send.</div>
-			<div>The company must grant us this meeting according to Japanese law and listen to our proposals in good faith. </div>
-			<div>We will make our case about why RTO is a bad policy not only for the employees but also for the company, and present our preferred solution.</div>
-			<div>If the company decides to ignore our request we are then able to escalate the issue and go on strike.</div>
-			<div>The PayPay Union will then hold a discussion and vote to see if we should strike, and how we should strike.</div>
-			<div>There are many ways to strike.</div>
-			<ul>
-				<li>Coming to the office but not doing any work there and taking up a lot of space.</li>
-				<li>Making placards and doing a demonstration in front of the office.</li>
-			</ul>
-			<div>The threat of bad publicity, or an incident happening while a good portion of the developers are on strike is the main leverage that we have as a union to force management into negotiating.</div>
-			<div>Our aim is to achieve our goals through negotiation, but if the company is stubborn these are the actions we can take to encourage them. </div>
+		<ExpandingSection title="How can the union push for changes to workplace policy?">
+			<div>The first step is collective bargaining. After members agree on our demands, the union can formally request negotiations with PayPay and present our case.</div>
+			<div>As a union, we are not just asking as isolated individuals. Japanese labor law gives unions the right to bargain collectively, and employers cannot refuse collective bargaining without a justifiable reason.</div>
+			<div>Our goal is to resolve issues through negotiation. If negotiation does not lead to progress, members can discuss and vote on further lawful action. This could include industrial action such as strikes, demonstrations, or other collective action, but any such step would be decided democratically by members.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Won't the company punish me or fire me for being a part of the union?">
