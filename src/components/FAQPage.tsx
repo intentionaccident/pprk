@@ -29,8 +29,9 @@ export const FAQPage = () => {
 			<div>Over the long term, our goal is to protect the working conditions and rights of all PayPay employees.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="How will we decide whether to aim for reversing the RTO policy, demanding no more increase in RTO or any other course of action?">
-			<div>Our union is democratic, and we will hold a discussion and a vote before proceeding with any demands to the company.</div>
+		<ExpandingSection title="How will we decide what to demand?">
+			<div>Our union is democratic. Members will discuss the available options and vote before we make formal demands to the company.</div>
+			<div>For example, on office attendance, members may decide whether to seek reversal, prevent further expansion, negotiate exceptions, or pursue another course of action.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How can the union get PayPay to reverse the RTO policy?">
