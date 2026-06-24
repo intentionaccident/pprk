@@ -53,9 +53,10 @@ export const FAQPage = () => {
 		</ExpandingSection>
 
 		<ExpandingSection title="What will be required of me as a member?">
-			<div>These are the minimum requirements for all union members:</div>
-			<div>Tozen Union requires 2000 yen per month from each member. This money is used to pay for lawyers and other administrative expenses.</div>
-			<div>The union must have at least one annual meeting and elections for the union officers. It is expected that all members will be present at these meetings. We are planning to have them via video conference currently.</div>
+			<div>All members join Tozen Union and pay monthly dues of 2000 yen. These dues are Tozen-wide funds, not a PayPay-only fee. They support the union&apos;s common work across its locals, including organizers, case support, administration, legal and organizing work, communications, and other activities approved through Tozen&apos;s democratic budget process.</div>
+			<div>As members of the PayPay local, we will also take part in decisions about our own workplace. That means joining local meetings when possible, discussing issues together, voting on demands and actions, and choosing representatives when needed.</div>
+			<div>PayPay local members may also decide democratically to collect additional local dues if we need to fund PayPay-specific activities.</div>
+			<div>PayPay local members also have a voice in Tozen-wide decisions through delegates chosen from the local. The details are set by Tozen&apos;s constitution, but the basic idea is that our local branch participates in both workplace decisions and the wider union&apos;s democratic structure.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What is Tozen Union?">
