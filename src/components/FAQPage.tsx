@@ -18,12 +18,12 @@ export const FAQPage = () => {
 			</a>
 		</div>
 		<ExpandingSection title="What is a workers' union?">
-			<div>A workers union is a group of workers who organize together to improve and protect their working conditions.</div>
+			<div>A workers&apos; union is a group of workers who organize together to improve and protect their working conditions.</div>
 			<div>When management makes decisions that affect our work, individual employees often have limited power to respond. A union gives workers a way to raise concerns collectively, negotiate with management, and support each other.</div>
-			<div>Workers unions are recognized under Japanese law, and workers are legally protected when joining a union or taking part in legitimate union activity. Employers cannot target, harass, or disadvantage workers for being part of a union.</div>
+			<div>Workers&apos; unions are recognized under Japanese law, and workers are legally protected when joining a union or taking part in legitimate union activity. Employers cannot target, harass, or disadvantage workers for being part of a union.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="What are the main goals of the PayPay Workers Union?">
+		<ExpandingSection title="What are the main goals of the PayPay Workers&apos; Union?">
 			<div>Our founding issue is opposition to mandatory office attendance.</div>
 			<div>Our first objective is to enter collective bargaining with PayPay to prevent further expansion of mandatory office attendance and push for it to be reversed.</div>
 			<div>Over the long term, our goal is to protect the working conditions and rights of all PayPay employees.</div>
@@ -36,7 +36,7 @@ export const FAQPage = () => {
 
 		<ExpandingSection title="How can the union push for changes to workplace policy?">
 			<div>The first step is collective bargaining. After members agree on our demands, the union can formally request negotiations with PayPay and present our case.</div>
-			<div>Negotiations will be held between representatives of the PayPay union chosed democratically and PayPay management. Legal representatives and Tozen Union representatives may also attend to help us negotiate.</div>
+			<div>Negotiations will be held between representatives of the PayPay union chosen democratically and PayPay management. Legal representatives and Tozen Union representatives may also attend to help us negotiate.</div>
 			<div>PayPay managements has to meet with the union and listen to the demands. The union must present their argument about why their demands are reasonable and necessary.</div>
 			<div>Our goal is to resolve issues through negotiation. If negotiation does not lead to progress, members can discuss and vote on further lawful action. This could include industrial action such as strikes, demonstrations, or other collective action, but any such step would be decided democratically by members.</div>
 		</ExpandingSection>
@@ -84,12 +84,12 @@ export const FAQPage = () => {
 			<div>We aim to continue the union indefinitely. A union is not only for one issue; it gives workers an ongoing structure to improve and defend our working conditions.</div>
 			<div>That can include issues such as:</div>
 			<ul>
-				<li>The employee evaluation proccess and salary increase decisions</li>
-				<li>Mandatory AI use and copany AI use policies</li>
+				<li>The employee evaluation process and salary increase decisions</li>
+				<li>Mandatory AI use and company AI use policies</li>
 				<li>Office amenities such as water and coffee</li>
 			</ul>
 			<div>It also means we can respond immediately when management introduces sudden or arbitrary requirements.</div>
-			<div>Finally the union will be there to help any workers who might be suffering harrasment or other issues at the company.</div>
+			<div>Finally the union will be there to help any workers who might be suffering harassment or other issues at the company.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Who will run the union?">
@@ -111,16 +111,16 @@ export const FAQPage = () => {
 			<div>Other Tozen members are also paying their dues so it acts as a joint fund.</div>
 			<div>Mainly the money is used for legal fees and administrative expenses.</div>
 			<div>When any Tozen members need to use a lawyer, Tozen Union covers that cost out of the union fund. Similarly the Tozen offices and union organizers are being paid from that fund when they help organise protests, meetings and other activities.</div>
-			<div>Tozen&apos;s members have complete access to the union's accounts and have a say in the union's budget.</div>
+			<div>Tozen&apos;s members have complete access to the union&apos;s accounts and have a say in the union&apos;s budget.</div>
 			<div>If PayPay local members decide that we need separate funds for PayPay-specific activities, any additional local dues would be discussed and decided democratically by PayPay local members.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="It's a bit expensive, isn't it? Why should I pay">
-			<div>The funds are being set aside to fight important issues and help you if the company decides to fire you or harrass you for some unfair reason.</div>
+		<ExpandingSection title="It&apos;s a bit expensive, isn&apos;t it? Why should I pay">
+			<div>The funds are being set aside to fight important issues and help you if the company decides to fire you or harass you for some unfair reason.</div>
 			<div>Consider if the company forces all workers to come to the office every day, or forces all employees to move to Tokyo. How much money would that cost you personally?</div>
-			<div>What if the company decides to make you redundant or fires you without a good reason? Even if it was an illegal reason you would need to appleal that reason in a court which would cost you money.</div>
+			<div>What if the company decides to make you redundant or fires you without a good reason? Even if it was an illegal reason you would need to appeal that reason in a court which would cost you money.</div>
 			<div>The union will also likely pursue a demand for regular salary increases from the company in the future.</div>
-			<div>The union acts somewhat like insurance. You pay a regular fee now so that later when something bad happens the union can work toprotect you from those unpleasant events.</div>
+			<div>The union acts somewhat like insurance. You pay a regular fee now so that later when something bad happens the union can work top protect you from those unpleasant events.</div>
 		</ExpandingSection>
 	</div>
 }
