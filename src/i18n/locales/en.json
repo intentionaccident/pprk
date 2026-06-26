@@ -10,20 +10,19 @@
 	},
 	"index": {
 		"attack":  {
-			"title": "PayPay employees deserve a collective voice at work",
-			"body": "When workplace conditions change, employees should be able to respond together instead of facing decisions alone",
+			"title": "PayPay management has made new demands about mandatory office attendance",
+			"body": "Despite protest from the employees and the extra cost to the company this policy is being enforced",
 			"detail":{
-				"week": "Major workplace changes affect our work, families, commutes, and daily lives",
-				"month": "Employees should have a say before major changes are imposed"
-
+				"week": "Is your Tokyo commute suddenly a nightmare?",
+				"month": "Did you move to a different city expecting you could work remotely?"
 			},
-			"alert": "A union gives us a way to <1>stand together</1> and defend the conditions that let us do our best work"
+			"alert": "Are you frustrated by this decision or other issues at the company?"
 		},
 		"form": {
 			"title": "We are forming a PayPay Workers Union",
-			"body": "You may not expect the next demand from management, but you can be prepared to face it together",
-			"insurance": "A union gives workers a voice",
-			"fight": "We will <1>protect sustainable working conditions</1> and push for employees to be heard before major changes are made",
+			"body": "You didn't expect the mandatory office attendance changes, and you won't expect the next demands either",
+			"insurance": "A union lets you push back against these changes",
+			"fight": "We will <1>fight for your right to work from home</1> and let your voice be heard",
 			"stand": "Stand Together",
 			"join": "Join the PayPay Union today",
 			"faq": "Read More Here",

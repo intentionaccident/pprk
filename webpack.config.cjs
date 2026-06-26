@@ -55,8 +55,7 @@ module.exports = env => {
 		},
 		plugins: [
 			new HtmlWebpackPlugin({
-				base: "/",
-				title: "PayPay Union",
+				template: "./src/index.html",
 			}),
 			new MiniCssExtractPlugin(),
 		],

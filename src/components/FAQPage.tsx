@@ -18,9 +18,9 @@ export const FAQPage = () => {
 			</a>
 		</div>
 		<ExpandingSection title="What is a workers' union?">
-			<div>A workers&apos; union is a group of workers who organize together to improve and protect their working conditions.</div>
+			<div>A workers union is a group of workers who organize together to improve and protect their working conditions.</div>
 			<div>When management makes decisions that affect our work, individual employees often have limited power to respond. A union gives workers a way to raise concerns collectively, negotiate with management, and support each other.</div>
-			<div>Workers&apos; unions are recognized under Japanese law, and workers are legally protected when joining a union or taking part in legitimate union activity. Employers cannot target, harass, or disadvantage workers for being part of a union.</div>
+			<div>Workers unions are recognized under Japanese law, and workers are legally protected when joining a union or taking part in legitimate union activity. Employers cannot target, harass, or disadvantage workers for being part of a union.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What are the main goals of the PayPay Workers Union?">
@@ -36,14 +36,16 @@ export const FAQPage = () => {
 
 		<ExpandingSection title="How can the union push for changes to workplace policy?">
 			<div>The first step is collective bargaining. After members agree on our demands, the union can formally request negotiations with PayPay and present our case.</div>
-			<div>As a union, we are not just asking as isolated individuals. Japanese labor law gives unions the right to bargain collectively, and employers cannot refuse collective bargaining without a justifiable reason.</div>
+			<div>Negotiations will be held between representatives of the PayPay union chosed democratically and PayPay management. Legal representatives and Tozen Union representatives may also attend to help us negotiate.</div>
+			<div>PayPay managements has to meet with the union and listen to the demands. The union must present their argument about why their demands are reasonable and necessary.</div>
 			<div>Our goal is to resolve issues through negotiation. If negotiation does not lead to progress, members can discuss and vote on further lawful action. This could include industrial action such as strikes, demonstrations, or other collective action, but any such step would be decided democratically by members.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Can the company punish or fire me for joining the union?">
 			<div>Employers cannot lawfully fire, threaten, harass, or otherwise disadvantage workers because they joined a union, tried to organize one, or took part in legitimate union activity. These protections are part of Japan&apos;s Labor Union Act.</div>
-			<div>That does not mean retaliation is impossible, but it means members do not have to face it alone. If management pressures union members or treats them differently, the union can help document what happened, respond collectively, and seek support from Tozen Union and legal advisers.</div>
-			<div>Joining a union means acting with others, not standing alone. Members decide major actions democratically, and when the union acts, it does so collectively so that responsibility and risk are shared.</div>
+			<div>Any evidence showing that PayPay management is retaliating against the union members in any way can be used to demand compensation and reversal from the company.</div>
+			<div>Tozen Union <a href="https://tozenunion.org/tozen-reaches-deal-with-shane-over-union-busting-wages/" target="_blank" rel="noopener noreferrer">recently had a case</a> where workers who were part of a union didn't get a raise as opposed to other workers and they were able to reverse this in the courts. Even such actions which seem difficult to prove are judged in the workers favor by Japanese courts.</div>
+			<div>The union is full of people dedicated to preventing the company abusing you for any reason, with access to lawyers and experience with these kinds of cases.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How can I join the union?">
@@ -78,33 +80,47 @@ export const FAQPage = () => {
 			<div>If members later decide that a different structure would better serve us, we can discuss and decide that democratically.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="What will the union do after the RTO issue is resolved?">
+		<ExpandingSection title="What will the union do after the mandatory attendance issue is resolved?">
 			<div>We aim to continue the union indefinitely. A union is not only for one issue; it gives workers an ongoing structure to improve and defend our working conditions.</div>
-			<div>That can include regular negotiations over pay, evaluation processes, benefits, workload, flexibility, harassment, administrative problems, and other issues that affect employees.</div>
-			<div>It also means we can respond collectively when management introduces sudden or arbitrary requirements, including targets or policies that do not meaningfully improve our work.</div>
-			<div>The union&apos;s priorities will be decided democratically by members. If members vote to pursue an issue, the union can raise it with management and work toward a collective solution.</div>
+			<div>That can include issues such as:</div>
+			<ul>
+				<li>The employee evaluation proccess and salary increase decisions</li>
+				<li>Mandatory AI use and copany AI use policies</li>
+				<li>Office amenities such as water and coffee</li>
+			</ul>
+			<div>It also means we can respond immediately when management introduces sudden or arbitrary requirements.</div>
+			<div>Finally the union will be there to help any workers who might be suffering harrasment or other issues at the company.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="Who will run the union?">
-			<div>You will.</div>
-			<div>More precisely, PayPay Workers Union will be run democratically by its members. Members will decide our priorities, vote on major decisions, and choose representatives to carry out the union&apos;s day-to-day work.</div>
+			<div>Workers Union will be run democratically by its members. Members will decide our priorities, vote on major decisions, and choose representatives to carry out the union&apos;s day-to-day work.</div>
 			<div>
 				At minimum, we will elect three local officers:
 				<ul>
-					<li>A president to coordinate the overall direction of the local</li>
+					<li>A president to be the main union representative</li>
 					<li>A secretary to keep records of meetings, votes, and decisions</li>
 					<li>A treasurer to manage local finances and accounting</li>
 				</ul>
 			</div>
-			<div>If members decide that other roles are needed, we can create them through our democratic process.</div>
-			<div>Even if you are not elected to a formal role, the union depends on members taking part. Every discussion, vote, and contribution helps decide what the union becomes.</div>
+			<div>If members decide that other roles are needed, we can create them.</div>
+			<div>Even if you are not elected to a formal role, the union depends on members taking part. Every discussion, vote, and contribution helps the union get stronger and protect your rights.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="How are the 2000 yen monthly dues used?">
 			<div>The 2000 yen monthly dues are Tozen Union dues. They are paid into Tozen&apos;s shared budget, not kept as a PayPay-only fund.</div>
-			<div>Those dues support the common work of the union across its locals, including organizers, case support, administration, legal and organizing work, communications, and other union activities approved through Tozen&apos;s democratic budget process.</div>
-			<div>Tozen&apos;s budget, financial reports, and dues are handled through its democratic process, and members have the right to review union financial records.</div>
+			<div>Other Tozen members are also paying their dues so it acts as a joint fund.</div>
+			<div>Mainly the money is used for legal fees and administrative expenses.</div>
+			<div>When any Tozen members need to use a lawyer, Tozen Union covers that cost out of the union fund. Similarly the Tozen offices and union organizers are being paid from that fund when they help organise protests, meetings and other activities.</div>
+			<div>Tozen&apos;s members have complete access to the union's accounts and have a say in the union's budget.</div>
 			<div>If PayPay local members decide that we need separate funds for PayPay-specific activities, any additional local dues would be discussed and decided democratically by PayPay local members.</div>
+		</ExpandingSection>
+
+		<ExpandingSection title="It's a bit expensive, isn't it? Why should I pay">
+			<div>The funds are being set aside to fight important issues and help you if the company decides to fire you or harrass you for some unfair reason.</div>
+			<div>Consider if the company forces all workers to come to the office every day, or forces all employees to move to Tokyo. How much money would that cost you personally?</div>
+			<div>What if the company decides to make you redundant or fires you without a good reason? Even if it was an illegal reason you would need to appleal that reason in a court which would cost you money.</div>
+			<div>The union will also likely pursue a demand for regular salary increases from the company in the future.</div>
+			<div>The union acts somewhat like insurance. You pay a regular fee now so that later when something bad happens the union can work toprotect you from those unpleasant events.</div>
 		</ExpandingSection>
 	</div>
 }
