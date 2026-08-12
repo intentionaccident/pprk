@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useTranslation } from "react-i18next"
 
 import { tc } from "../utils/tc"
 import { DiscordLink } from "./DiscordLink"
@@ -6,6 +7,7 @@ import { ExpandingSection } from "./ExpandingSection"
 import { PageHeader } from "./PageHeader"
 
 export const FAQPage = () => {
+	const { t } = useTranslation()
 	return <div>
 		<PageHeader>FAQ</PageHeader>
 		<div className={tc("s4", "bold", "p8")}>
@@ -17,13 +19,19 @@ export const FAQPage = () => {
 				Tozen Union FAQ on Japanese Trade Union Law
 			</a>
 		</div>
+
+		<ExpandingSection title="How can I join the union?">
+			<div>PayPay Group Union is part of Tozen General Union. Members need to register with <a href="https://join.tozenunion.org/" target="_blank" rel="noopener noreferrer">Tozen Union</a> first.</div>
+			<div>We are using Discord to discuss issues and plan meetings so please join our <DiscordLink>Discord server</DiscordLink>.</div>
+		</ExpandingSection>
+
 		<ExpandingSection title="What is a workers' union?">
 			<div>A workers&apos; union is a group of workers who organize together to improve and protect their working conditions.</div>
 			<div>When management makes decisions that affect our work, individual employees often have limited power to respond. A union gives workers a way to raise concerns collectively, negotiate with management, and support each other.</div>
 			<div>Workers&apos; unions are recognized under Japanese law, and workers are legally protected when joining a union or taking part in legitimate union activity. Employers cannot target, harass, or disadvantage workers for being part of a union.</div>
 		</ExpandingSection>
 
-		<ExpandingSection title="What are the main goals of the PayPay Workers&apos; Union?">
+		<ExpandingSection title="What are the main goals of the PayPay Group&apos; Union?">
 			<div>Our founding issue is opposition to mandatory office attendance.</div>
 			<div>Our first objective is to enter collective bargaining with PayPay to prevent further expansion of mandatory office attendance and push for it to be reversed.</div>
 			<div>Over the long term, our goal is to protect the working conditions and rights of all PayPay employees.</div>
@@ -46,12 +54,6 @@ export const FAQPage = () => {
 			<div>Any evidence showing that PayPay management is retaliating against the union members in any way can be used to demand compensation and reversal from the company.</div>
 			<div>Tozen Union <a href="https://tozenunion.org/tozen-reaches-deal-with-shane-over-union-busting-wages/" target="_blank" rel="noopener noreferrer">recently had a case</a> where workers who were part of a union didn't get a raise as opposed to other workers and they were able to reverse this in the courts. Even such actions which seem difficult to prove are judged in the workers favor by Japanese courts.</div>
 			<div>The union is full of people dedicated to preventing the company abusing you for any reason, with access to lawyers and experience with these kinds of cases.</div>
-		</ExpandingSection>
-
-		<ExpandingSection title="How can I join the union?">
-			<div>Right now we are gathering our members on our <DiscordLink>Discord server</DiscordLink></div>
-			<div>Members will need to register with <a href="https://join.tozenunion.org/" target="_blank" rel="noopener noreferrer">Tozen Union</a></div>
-			<div>We will be holding our founding meeting soon, but you can join the union at any time.</div>
 		</ExpandingSection>
 
 		<ExpandingSection title="What will be required of me as a member?">
