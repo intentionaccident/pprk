@@ -11,6 +11,7 @@ import * as styles from "./IndexPage.scss"
 export const IndexPage = () => {
 	const { t } = useTranslation()
 	return <div className={tc("textCenter", "vflex", "center", "g6", "stretch")}>
+		<div className={clsx(styles.separator, tc("my5"))} />
 		<div className={tc("s2", "bold")}>{t("index.attack.title")}</div>
 		<div className={tc("s4")}>{t("index.attack.body")}</div>
 
